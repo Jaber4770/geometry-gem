@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Gem</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="container mx-auto">
+
+    <!-- NAV -->
+    <div class="navbar bg-base-100 mb-11 bg-blue-400 rounded p-5">
+        <div class="navbar-start">
+            <a class="btn btn-ghost text-3xl font-bold mb-6 text-white">Interactive <br>
+                Geometry Genius</a>
+        </div>
+        <div class="navbar-end">
+            <a class="btn bg-slate-700 text-white">Login</a>
+        </div>
+    </div>
+    <div class="flex">
+        <div class="flex-1">
+            <!-- angle container -->
+            <div class="grid grid-cols-3 gap-8">
+                <!-- angles cards body -->
+                <!-- card 1 -->
+                <div>
+                    <div class="card w-auto h-96 bg-base-100 shadow-xl">
+                        <figure><img class="h-full w-full m-5" src="images/triangle.png"
+                                alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title font-bold text-center">Triangle</h2>
+                            <p>A = ½ × height × base</p>
+                            <input type="number" class="p-1 border" placeholder="height">
+                            <input type="number" class="p-1 border" placeholder="base">
+                            <div class="card-actions w-full mt-2">
+                                <button class="w-full btn btn-primary">Calculate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div>
+                    <div class="card w-auto h-96 bg-base-100 shadow-xl">
+                        <figure><img class="h-full w-full m-5" src="images/rectangle.png"
+                                alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title font-bold text-center">Rectangle</h2>
+                            <p>A=length×width</p>
+                            <input type="number" class="p-1 border" placeholder="length">
+                            <input type="number" class="p-1 border" placeholder="width">
+                            <div class="card-actions w-full mt-2">
+                                <button class="w-full btn btn-primary">Calculate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div>
+                    <div class="card w-auto h-96 bg-base-100 shadow-xl">
+                        <figure><img class="h-full w-full m-5" src="images/parallelogram.png"
+                                alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title font-bold text-center">Parallelogram</h2>
+                            <p>A=base×height</p>
+                            <input type="number" class="p-1 border" placeholder="base">
+                            <input type="number" class="p-1 border" placeholder="height">
+                            <div class="card-actions w-full mt-2">
+                                <button class="w-full btn btn-primary">Calculate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div>
+                    <div class="card w-auto h-96 bg-base-100 shadow-xl">
+                        <figure><img class="h-full w-full m-5" src="images/rhombus.png"
+                                alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title font-bold text-center">Rhombus</h2>
+                            <p>A= 0.5 x (d1 x d2)
+                                </p>
+                                <input type="number" class="p-1 border" placeholder="d1">
+                                    <input type="number" class="border" placeholder="d2">
+                            <div class="card-actions w-full mt-2">
+                                <button class="w-full btn btn-primary">Calculate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 5 -->
+                <div>
+                    <div class="card w-auto h-96 bg-base-100 shadow-xl">
+                        <figure><img class="h-full w-full m-5" src="images/pentagon.png"
+                                alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title font-bold text-center">Pentagon</h2>
+                            <p>A = 0.5 x (p x b)</p>
+                            <input type="number" class="p-1 border" placeholder="p">
+                            <input type="number" class="p-1 border" placeholder="b">
+                            <div class="card-actions w-full mt-2">
+                                <button class="w-full btn btn-primary">Calculate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 6 -->
+                <div>
+                    <div class="card w-auto h-96 bg-base-100 shadow-xl">
+                        <figure><img class="h-full w-full m-5" src="images/ellipse.png"
+                                alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title font-bold text-center">Ellipse</h2>
+                            <p>A = Pi x ( a x b)</p>
+                            <input type="number" class="p-1 border" placeholder="a">
+                            <input type="number" class="p-1 border" placeholder="b">
+                            <div class="card-actions w-full mt-2">
+                                <button class="w-full btn btn-primary">Calculate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-2 p-2 rounded-md border-gray-400 mx-2">
+            <!-- area calculation -->
+            <h1 class="text-4xl font-bold mb-5">Area Calculation:</h1>
+
+        </div>
+    </div>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
